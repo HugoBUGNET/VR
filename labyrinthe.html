@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-asset>
+        <img id="pelouse" src="./pelouse.jpg">
+        <img id="mur" src="./mur.jpg">
+        <img id="intro" src="./intro.png">
+        <img id="g1" src="./gauche1.png">
+        <img id="g2" src="./gauche2.png">
+        <img id="g3" src="./gauche3.png">
+        <img id="g4" src="./gauche4.png">
+        <img id="g5" src="./gauche5.png">
+        <img id="gf" src="./gauche-final.png">
+        <img id="n3" src="./neutre3.png">
+        <img id="d1" src="./droite1.png">
+        <img id="d2" src="./droite2.png">
+        <img id="d3" src="./droite3.png">
+        <img id="v" src="./victoire.png">*
+        <img id="galaxy" src="./galaxy.jpg">
+        <img id="graviers" src="./gravier.jpg">
+      </a-asset>
+        <a-plane position="0 0.4 0" 
+                rotation="-90 0 0" 
+                width="4" height="4" 
+                color="#BBBBBB"
+                side="double"
+                src="#pelouse">
+        </a-plane>
+        <a-plane position="0 1.6 -2" 
+                rotation="0 0 0" 
+                width="4" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#g2">
+        </a-plane>
+        <a-plane position="2 1.6 -1" 
+                rotation="0 90 0" 
+                width="2" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#d3">
+        </a-plane>
+        <a-plane position="2 1.6 1.5" 
+                rotation="0 90 0" 
+                width="1" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#gf">
+        </a-plane>
+        <a-plane position="0 1.6 2" 
+                rotation="0 0 0" 
+                width="4" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#g5">
+        </a-plane>
+        <a-plane position="-2 1.6 0" 
+                rotation="0 90 0" 
+                width="4" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="0 1.6 -1" 
+                rotation="0 0 0" 
+                width="1" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#intro">
+        </a-plane>
+        <a-plane position="0 1.6 -1.01" 
+                rotation="0 0 0" 
+                width="1" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="-1.25 1.6 -0" 
+                rotation="0 90 0" 
+                width="2" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="-1.24 1.6 -0" 
+                rotation="0 90 0" 
+                width="2" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#g1">
+        </a-plane>
+        <a-plane position="0.39 1.6 1" 
+                rotation="0 0 0" 
+                width="3.3" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="1.25 1.6 0" 
+                rotation="0 90 0" 
+                width="2" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#d2">
+        </a-plane>
+        <a-plane position="1.26 1.6 0" 
+                rotation="0 90 0" 
+                width="2" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="0.49 1.6 -0.5" 
+                rotation="0 90 0" 
+                width="1" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#d1">
+        </a-plane>
+        <a-plane position="0.5 1.6 -0.5" 
+                rotation="0 90 0" 
+                width="1" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#n3">
+        </a-plane>
+        <a-plane position="4 2 1" 
+                rotation="-10 90 0" 
+                width="4" height="2.5" 
+                color="#FFFFFF"
+                side="double"
+                src="#v">
+        </a-plane>
+      <a-sky color="#FFFFFF" src="#galaxy"></a-sky>
+    </a-scene>
+  </body>
+</html>
